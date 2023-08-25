@@ -3,7 +3,7 @@
 #include<cstdlib>
 using namespace std;
 
-void Bubble_Sort (int A[], int n, int k) {
+int Jump_Search (int A[], int n, int k) {
     int m = sqrt(n);
     int i = 0;
     while (A[m] <= k && m < n) {
